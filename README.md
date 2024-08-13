@@ -7,7 +7,8 @@
 - <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=6BoHiLag0xPQg3HIsp3a0Npq78tsKBgo&jump_from=webapi&authKey=MgBcDW4xIjAaBO7dsaLoOuYKvtvu5cDCu1uN/BXexjPXmqTng2u18WuBM1G5RN5/"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Lovecat交流群" title="Lovecat交流群"></a>QQ交流群：979103710
 
 ### 文件树说明
-~~~~~~
+
+```
 ┌─tree.txt                  文件树说明
 │  
 ├─AE AI                 ☆素材相关
@@ -55,5 +56,5 @@
         │  ico.png			任务栏ico显示调用
         │  下班.pyw			python主程序
         │  
-        └─03			☆小猫动图图片序列文件夹
+        └─03			☆小猫动图图片序列文件夹```
     
