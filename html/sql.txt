@@ -1,0 +1,6 @@
+-- 创建表
+CREATE TABLE pyqtui (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    thing TEXT NOT NULL,
+    color varchar(20) NOT NULL
+);

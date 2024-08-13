@@ -1,0 +1,271 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* 设置背景颜色 */
+    z-index: -9999;
+    overflow: hidden;
+    /* 禁止滚动 */
+}
+
+.logo-image {
+    position: absolute;
+    /* 绝对定位 */
+    top: -110%;
+    /* 距离顶部的20% */
+    left: 50%;
+    /* 水平居中 */
+    transform: translateX(-50%);
+    /* 使其在50%位置居中 */
+    width: 400px;
+    /* 设置宽度 */
+    height: 232px;
+    /* 设置高度 */
+    z-index: 1;
+    /* 确保图片在其他元素之上 */
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    /* 设置容器宽度 */
+    height: 232px;
+    /* 设置容器高度 */
+    background: url('catbig.png') no-repeat center center;
+    /* 设置背景图 */
+    background-size: 400px 232px;
+    /* 固定背景图大小 */
+    /*border: 1px solid #ccc; /* 可选: 添加边框以突出显示容器 */
+    */
+}
+
+.editable-text {
+    position: absolute;
+    top: 48%;
+    /* 设置可编辑文字的垂直位置 */
+    left: 50%;
+    /* 设置文字的水平位置 */
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.4em;
+    /* 根据需要调整字体大小 */
+    font-family: "Microsoft YaHei", sans-serif;
+    /* 设置字体为微软雅黑 */
+    font-weight: bold;
+    /* 设置为粗体 */
+    cursor: pointer;
+    white-space: nowrap;
+    /* 不换行 */
+    user-select: none;
+    /* 防止选中文字 */
+}
+
+.input-box {
+    position: absolute;
+    top: 111%;
+    /* 输入框的位置 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    /* 输入框字体大小 */
+    font-family: "Microsoft YaHei", sans-serif;
+    /* 设置输入框字体为微软雅黑 */
+    display: none;
+    /* 默认隐藏输入框 */
+    padding: 1px;
+    width: 380px;
+    /* 输入框宽度 */
+    background-color: #f7d064;
+    /* 设置背景颜色 */
+    border: 3px solid #f7d064;
+    /* 3px白色边框 */
+    border-radius: 5px;
+    /* 圆角 */
+    font-weight: bold;
+    /* 设置为粗体 */
+    color: balck;
+    /* 设置输入框文字颜色为白色 */
+
+
+}
+
+.new-input-box {
+    position: absolute;
+    top: 111%;
+    /* 输入框的位置，与之前的输入框一致 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    /* 输入框字体大小 */
+    font-family: "Microsoft YaHei", sans-serif;
+    /* 设置输入框字体为微软雅黑 */
+
+    padding: 1px;
+    width: 380px;
+    /* 输入框宽度 */
+    background-color: #f7d064;
+    /* 设置背景颜色 */
+    border: 3px solid #f7d064;
+    /* 3px白色边框 */
+    border-radius: 5px;
+    /* 圆角 */
+    font-weight: bold;
+    /* 设置为粗体 */
+    color: black;
+    /* 设置输入框文字颜色为黑色 */
+}
+
+
+#addItemButton {
+    /*display: none; /* 隐藏按钮 */
+    */
+}
+
+.add-item-overlay {
+    display: block;
+    /* 显示覆盖区域 */
+    left: 30%;
+    width: 40%;
+    /* 覆盖整个区域 */
+    height: 80px;
+    /* 根据你的按钮高度调整 */
+    cursor: pointer;
+    /* 鼠标悬停时显示为可点击 */
+    position: relative;
+    /* 使其能定位 */
+    background: rgba(255, 255, 255, 0);
+    /* 透明背景 */
+}
+
+.button-container {
+    position: absolute;
+    top: calc(111% + 45px);
+    /* 按钮距离输入框下方45像素 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* 使用flex布局使按钮横向排列 */
+    gap: 10px;
+    /* 按钮之间的间距 */
+}
+
+.button-container-add {
+    position: absolute;
+    top: calc(111% + 45px);
+    /* 按钮距离输入框下方45像素 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* 使用flex布局使按钮横向排列 */
+    gap: 10px;
+    /* 按钮之间的间距 */
+}
+
+.button {
+    font-size: 1em;
+    /* 按钮字体大小 */
+    font-family: "Microsoft YaHei", sans-serif;
+    /* 设置按钮字体为微软雅黑 */
+    font-weight: bold;
+    /* 设置为粗体 */
+    cursor: pointer;
+    /* 鼠标指针变为手型 */
+
+    padding: 5px 10px;
+    /* 按钮内边距 */
+    border: 1px solid rgba(219, 175, 51, 0.8);
+    /* 1px白色半透明边框 */
+    border-radius: 5px;
+    /* 圆角 */
+    color: black;
+    /* 字体颜色 */
+    background-color: #fece48;
+    /* 背景颜色 */
+
+    transition: background-color 0.3s, transform 0.3s;
+    /* 动画效果 */
+}
+
+.button:hover {
+    background-color: #ddb033;
+    /* 悬停时的背景颜色 */
+    transform: scale(1.05);
+    /* 悬停时缩放 */
+}
+
+
+.additional-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1.3em;
+    /* 与可编辑文本相同的字体大小 */
+    font-family: "Microsoft YaHei", sans-serif;
+    /* 设置字体为微软雅黑 */
+    font-weight: bold;
+    /* 设置为粗体 */
+    text-align: center;
+    /* 文字居中 */
+    cursor: pointer;
+    /* 鼠标指针变为手型 */
+    white-space: nowrap;
+    /* 不换行 */
+    user-select: none;
+    /* 防止选中文字 */
+}
+
+.text1 {
+    top: 42%;
+    /* 第一行文字位置，距离顶部的百分比 */
+}
+
+.text2 {
+    top: 56%;
+    /* 第二行文字位置 */
+}
+
+.text3 {
+    top: 70%;
+    /* 第三行文字位置 */
+}
+
+.text4 {
+    top: 84%;
+    /* 第三行文字位置 */
+}
+
+.footer {
+    position: absolute;
+    /* 使其相对于父级元素定位 */
+    bottom: 10%;
+    /* 距离页面底部10% */
+    left: 50%;
+    /* 水平居中 */
+    transform: translateX(-50%);
+    /* 使其在50%位置居中 */
+    color: gray;
+    /* 设置字体颜色为灰色 */
+    font-size: 14px;
+    /* 设置字体大小（可根据需要调整） */
+    text-align: center;
+    /* 文本居中对齐 */
+    z-index: -999;
+}
+
+
+.input-warning {
+            color: red;
+            font-size: 12px;
+            display: none; /* 初始隐藏 */
+        }
+
+.input-count {
+    font-size: 12px;
+    color: #555;
+}
