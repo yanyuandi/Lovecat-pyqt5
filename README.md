@@ -35,7 +35,7 @@
 │          db.php			链接数据库
 │          pyui.php			json文件，访问后得到json
 │
-├─jpg                  ☆github图片调用
+├─jpg                   ☆github图片调用
 │        
 └─python				☆python程序
     ├─LoveCat			☆小猫桌面互动小组件
