@@ -251,6 +251,7 @@ $texts = $stmt->fetchAll();
             const newContent = newInput.value; // 获取输入框的值
             if (newContent.trim() === '') {
                 alert('请输入内容。'); // 如果输入框为空，提示用户
+                addContainer.style.display = 'none'; // 隐藏添加容器
                 return;
             }
         
