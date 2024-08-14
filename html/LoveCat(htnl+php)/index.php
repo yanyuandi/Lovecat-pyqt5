@@ -230,6 +230,13 @@ $texts = $stmt->fetchAll();
             }
         });
 
+        // 按下 Enter 键时隐藏输入框并更新文字
+        newInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                addButton.click();
+            }
+        });
+
         // 添加按钮点击事件
         addItemButton.addEventListener('click', () => {
             addContainer.style.display = 'block'; // 显示添加容器
