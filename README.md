@@ -8,16 +8,22 @@
 - <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=6BoHiLag0xPQg3HIsp3a0Npq78tsKBgo&jump_from=webapi&authKey=MgBcDW4xIjAaBO7dsaLoOuYKvtvu5cDCu1uN/BXexjPXmqTng2u18WuBM1G5RN5/"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="Lovecat交流群" title="Lovecat交流群"></a>QQ交流群：979103710
 
 ### 需要的环境
-#### python 3.10.5 
-	pyqt5 
+* ### python 3.10.5 <br>
+
+    **pyqt5**<br>
+    ``` 
     pip install pyqt5
-
-	requests 
+    ```
+    **requests** <br>
+    ```
     pip install requests 
+    ```
 
-#### 一个虚拟主机
-	部署好Nginx，MySQL，php7.4.33
-#### 一个域名解析到服务器ip
+* ### 一个虚拟主机
+    ```
+    部署好Nginx，MySQL，php7.4.33
+    ```
+* ### 一个域名解析到服务器ip
 
 
 ### 代码文件树注释
