@@ -3,7 +3,7 @@
 ![image](jpg/演示.gif)
 
 ### 项目简介
-这是一款使用python的pyqt5写的桌面小组件，同时也有网页端，都部署好后，桌面可以随意拖动，并设置是否置顶，网页端可以远程添加一些留言或者情话或者待办之类的，适合小情侣工作之余的互动、一些重要事件的代表提醒，工程文件中附带一个下班倒计时桌面组件。详细的使用演示请移步B站观看视频演示。<br>
+这是一款使用python的pyqt5写的桌面小组件，同时也有网页端，都部署好后，运行桌面端后组件可以随意拖动，并设置是否置顶，网页端可以远程添加一些留言或者情话或者待办之类的，适合小情侣工作之余的互动、一些重要事件的待办提醒，工程文件中附带一个下班倒计时桌面组件。详细的使用演示请移步B站观看视频演示。<br>
 - **B站视频演示地址：[点击观看视频](https://www.bilibili.com/video/BV1Fo4y137n9/?vd_source=a935ffb91a0eac4e16a0461b0709faa9)**<br>
 - <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=6BoHiLag0xPQg3HIsp3a0Npq78tsKBgo&jump_from=webapi&authKey=MgBcDW4xIjAaBO7dsaLoOuYKvtvu5cDCu1uN/BXexjPXmqTng2u18WuBM1G5RN5/"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="Lovecat交流群" title="Lovecat交流群"></a>QQ交流群：979103710
 
